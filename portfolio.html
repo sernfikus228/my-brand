@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/modern-normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>SlimShady's Items</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <a href="./index.html" class="logo header__logo"
+          ><span class="logo__span">Slim</span>Shady's</a
+        >
+        <button class="header__menu-btn js-open-menu">
+          <svg class="header__menu" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <nav class="header__nav">
+          <ul class="header__list header__nav-list">
+            <li class="header__item">
+              <a href="./index.html" class="header__link">Головна</a>
+            </li>
+            <li class="header__item">
+              <a
+                href="./portfolio.html"
+                class="header__link header__link--current"
+                >Товари</a
+              >
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts header__list header__contacts-list">
+          <li class="contacts__item">
+            <div>
+              <a href="mailto:info@devstudio.com" class="contacts__link">
+                <svg class="contacts__icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </div>
+          </li>
+          <li class="contacts__item">
+            <div>
+              <a href="tel:+380961111111" class="contacts__link">
+                <svg class="contacts__icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <!-- filters -->
+          <div class="filters">
+            <ul class="filters__list">
+              <li class="filters__item">
+                <button type="button" class="filters__button">Усі</button>
+              </li>
+              <li class="filters__item">
+                <button type="button" class="filters__button">Кросівки</button>
+              </li>
+              <li class="filters__item">
+                <button type="button" class="filters__button">Шльопанці</button>
+              </li>
+              <li class="filters__item">
+                <button type="button" class="filters__button">Чоботи</button>
+              </li>
+              <li class="filters__item">
+                <button type="button" class="filters__button">
+                  На підборах
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- projects -->
+          <ul class="projects card-set">
+            <!-- 1 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/technokriak.png"
+                  alt="a website on a laptop"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Технокряк</h3>
+                <p class="card-set__item-descr">Кросівки</p>
+              </div>
+            </li>
+            <!-- 2 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/cowtech.png"
+                  alt="two men playing basketball"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">
+                  CowTech
+                </h3>
+                <p class="card-set__item-descr">Чоботи</p>
+              </div>
+            </li>
+            <!-- 3 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/syn'.png"
+                  alt="a seafood restaurant logo"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Синь</h3>
+                <p class="card-set__item-descr">Кросівки</p>
+              </div>
+            </li>
+            <!-- 4 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/bezodnia.png"
+                  alt="headphones"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Безодня</h3>
+                <p class="card-set__item-descr">Кросівки</p>
+              </div>
+            </li>
+            <!-- 5 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/shlepbob.png"
+                  alt="two boxes"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">ШльопБоб</h3>
+                <p class="card-set__item-descr">Шльопанці</p>
+              </div>
+            </li>
+            <!-- 6 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/syrpidbor.png"
+                  alt="a website on a computer"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Сирпідбор</h3>
+                <p class="card-set__item-descr">Підбори</p>
+              </div>
+            </li>
+            <!-- 7 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/mechanik.png"
+                  alt="an opened magazine"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Механік</h3>
+                <p class="card-set__item-descr">Кросівки</p>
+              </div>
+            </li>
+            <!-- 8 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/serioznist.png"
+                  alt="a tag with a text on it"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Серйозність</h3>
+                <p class="card-set__item-descr">Підбори</p>
+              </div>
+            </li>
+            <!-- 9 -->
+            <li class="card-set__item projects__item projects__item--shadow">
+              <div class="projects__overlay-area">
+                <img
+                  src="./images/trynohy.png"
+                  alt="someone is typing on a computer"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__overlay-text">
+                    Цікавий дизайн, надзвичайна легкість, першість серед трендів
+                    і, при цьому всьому, адекватна ціна. Наше взуття - завжди
+                    гарний вибір!
+                  </p>
+                </div>
+              </div>
+              <div class="card-set__text">
+                <h3 class="card-set__item-title">Три Ноги</h3>
+                <p class="card-set__item-descr">Підбори</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div>
+          <a href="./index.html" class="logo footer__logo">
+            <span class="logo__span">Slim</span>Shady's</a
+          >
+          <address class="footer__address">
+            <p class="footer__paragraph">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="footer__list">
+              <li class="footer__contact">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="footer__contact-link"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="footer__contact">
+                <a href="tel:+380961111111" class="footer__contact-link">
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer__join">
+          <h3 class="footer__title">приєднуйтесь!</h3>
+          <ul class="footer__list socials">
+            <li class="footer__item">
+              <a href="#" class="socials__item footer__socials">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="socials__item footer__socials">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="socials__item footer__socials">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="socials__item footer__socials">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <label for="subscribe" class="subscribe__label"
+            >Підпишіться на розсилку</label
+          >
+          <div class="subscribe__box">
+            <input
+              type="email"
+              id="subscribe"
+              name="subscribe"
+              placeholder="E-mail"
+              class="subscribe__input"
+            />
+            <button type="submit" class="subscribe__button button">
+              Підписатися
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="mobile-menu js-menu-container">
+      <div class="mobile-menu__container">
+        <button class="mobile-menu__close js-close-menu" type="button">
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu__nav">
+          <li class="mobile-menu__nav-item">
+            <a href="./index.html" class="mobile-menu__page-link">Головна</a>
+          </li>
+          <li class="mobile-menu__nav-item">
+            <a href="./portfolio.html" class="mobile-menu__page-link"
+              >Товари</a
+            >
+          </li>
+          <li class="mobile-menu__nav-item">
+            <a href="#" class="mobile-menu__page-link">Контакти</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__contacts">
+          <li class="mobile-menu__contact">
+            <a
+              href="tel:+380961111111"
+              class="mobile-menu__contact-link mobile-menu__contact-link--tel"
+            >
+              +38 096 111 11 11
+            </a>
+          </li>
+          <li class="mobile-menu__contact">
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-menu__contact-link"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__socials">
+          <li class="mobile-menu__socials-item">
+            <a href="#" class="mobile-menu__socials-link"> Instagram </a>
+          </li>
+
+          <hr class="mobile-menu__line" />
+
+          <li class="mobile-menu__socials-item">
+            <a href="#" class="mobile-menu__socials-link">Twitter</a>
+          </li>
+
+          <hr class="mobile-menu__line" />
+
+          <li class="mobile-menu__socials-item">
+            <a href="#" class="mobile-menu__socials-link"> Facebook </a>
+          </li>
+
+          <hr class="mobile-menu__line" />
+
+          <li class="mobile-menu__socials-item">
+            <a href="#" class="mobile-menu__socials-link"> LinkedIn </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
